@@ -1,0 +1,3 @@
+# Julia Type Instability Example
+
+This repository demonstrates a common performance issue in Julia caused by type instability.  The `bug.jl` file contains a function that exhibits this instability. The `bugSolution.jl` file shows how type annotations can resolve the issue.  Type instability can lead to significant slowdowns, especially in loops or when dealing with large datasets. Understanding and avoiding type instability is crucial for writing efficient and reliable Julia code.
